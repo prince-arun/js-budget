@@ -78,7 +78,7 @@ h3 {
 
 /* --------------------------------------- */
 .budget-form {
-  border: 0.15rem solid rgb(34, 95, 123);
+  /* border: 0.15rem solid rgb(34, 95, 123); */
   padding: 1rem;
   border-radius: 0.25rem;
 }
@@ -89,7 +89,7 @@ h3 {
   color: rgb(241, 143, 30);
 }
 .expense-form {
-  border: 0.15rem solid rgb(9, 12, 184);
+  /* border: 0.15rem solid rgb(9, 12, 184); */
   padding: 1rem;
   border-radius: 0.25rem;
 }
