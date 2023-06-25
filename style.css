@@ -1,0 +1,146 @@
+body {
+  /* background: #f1f1f1; */
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(254, 253, 205, 1) 11.2%,
+    rgba(163, 230, 255, 1) 91.1%
+  );
+  color: #222222;
+  font-family: monospace, sans-serif;
+}
+h3 {
+  text-align: center;
+  text-shadow: 8px 5px 4px gray;
+  font-size: 40px;
+}
+
+.box1 {
+  box-shadow: 8px 8px 8px rgb(157, 174, 179);
+}
+
+.budget-feedback,
+.expense-feedback {
+  display: none;
+}
+
+.expense-submit {
+  background: transparent;
+  border: 0.1rem solid rgb(235, 195, 17);
+  color: rgb(158, 130, 7);
+}
+.expense-submit:hover {
+  background: rgb(235, 195, 17);
+  color: #ffffff;
+}
+
+.budget-input {
+  border: 0.05rem solid rgb(49, 123, 34);
+}
+.expense-input {
+  border: 0.05rem solid rgb(184, 12, 9);
+}
+.expense-amount,
+.expense-title {
+  color: rgb(184, 12, 9);
+}
+.edit-icon {
+  color: rgb(94, 189, 17);
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.delete-icon {
+  color: rgb(184, 12, 9);
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.edit-icon:hover {
+  color: rgb(5, 102, 141);
+}
+.delete-icon:hover {
+  color: rgb(184, 12, 9);
+}
+.showItem {
+  display: block;
+}
+.info-title {
+  font-size: 1.5rem;
+}
+.budget {
+  font-size: 1.6rem;
+  color: rgb(21, 138, 5);
+}
+
+.balance {
+  font-size: 1.6rem;
+}
+
+/* --------------------------------------- */
+.budget-form {
+  border: 0.15rem solid rgb(34, 95, 123);
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+.budget-icon,
+.expense-icon,
+.balance-icon {
+  font-size: 2.5rem;
+  color: rgb(241, 143, 30);
+}
+.expense-form {
+  border: 0.15rem solid rgb(9, 12, 184);
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+.expense {
+  font-size: 1.6rem;
+  color: rgb(241, 111, 36);
+}
+.budget-submit {
+  background: transparent;
+  border: 0.1rem solid rgb(121, 238, 238);
+  color: rgb(6, 148, 184);
+}
+.budget-submit:hover {
+  background: rgb(6, 148, 184);
+  color: white;
+}
+.showRed {
+  color: rgb(184, 12, 9);
+}
+.showGreen {
+  color: rgb(49, 123, 34);
+}
+.showBlack {
+  color: #333333;
+}
+.proffessional-color {
+  color: rgb(76, 76, 76);
+}
+@media screen and (min-width: 960px) {
+  .budget {
+    font-size: 2.6rem;
+    color: rgb(15, 238, 45);
+  }
+  .expense {
+    font-size: 2.6rem;
+    color: rgb(245, 114, 8);
+  }
+  .balance {
+    font-size: 2.6rem;
+  }
+  .budget-icon,
+  .expense-icon,
+  .balance-icon {
+    font-size: 3.5rem;
+    color: rgb(196, 139, 17);
+  }
+}
+.list-item {
+  flex: 0 0 33.33%;
+  text-align: center;
+}
+.expense-item {
+  height: 2rem;
+}
